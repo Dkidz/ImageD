@@ -209,7 +209,7 @@ const processImageResponse = (response: { data?: { b64_json?: string }[] }): str
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-2">
-          <img src="image.png" alt="image" className="w-8 h-8 text-violet-500" />
+          <img src="/image.png" alt="image" className="w-8 h-8 text-violet-500" />
             <h1 className="text-2xl font-bold">ImageD</h1>
             <h2 className="text-sm text-gray-500">AI Image Generator</h2>
           </div>
