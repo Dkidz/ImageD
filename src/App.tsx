@@ -209,7 +209,7 @@ const processImageResponse = (response: { data?: { b64_json?: string }[] }): str
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div className="flex items-center gap-2">
-          <img src="/image.png" alt="image" className="w-8 h-8 text-violet-500" />
+          <img src="/image.png" alt="image" className="w-15 h-16 text-violet-500" />
             <h1 className="text-2xl font-bold">ImageD</h1>
             <h2 className="text-sm text-gray-500">AI Image Generator</h2>
           </div>
@@ -396,7 +396,7 @@ const processImageResponse = (response: { data?: { b64_json?: string }[] }): str
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <img src="image.png" alt="image" className="w-6 h-6 text-violet-500" />
+              <img src="/image.png" alt="image" className="w-10 h-10 text-violet-500" />
               <span className="text-sm text-gray-500 dark:text-gray-400">© 2025 ImageD By Dkidz. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-4">
